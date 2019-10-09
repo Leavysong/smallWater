@@ -13,7 +13,7 @@
    轮播banner<Br>
     
 * ### recycleview适配器<Br>
-       > recycleview适配器BaseRecyclerViewAdapterHelper<Br>
+> recycleview适配器BaseRecyclerViewAdapterHelper<Br>
     
 * ### 第三方SDK<Br>
 > 百度语音<Br>
