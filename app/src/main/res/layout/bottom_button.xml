@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout_bottom_learn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onViewClicked">
+
+            <ImageView
+                android:id="@+id/iv_bottom_learn"
+                android:layout_width="@dimen/bottom_iv_w_h"
+                android:layout_height="@dimen/bottom_iv_w_h"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/bottom_margin_top"
+                app:srcCompat="@mipmap/learn1" />
+
+            <TextView
+                android:id="@+id/tv_bottom_learn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_bottom_learn"
+                android:layout_centerHorizontal="true"
+                android:text="学习"
+                android:layout_marginTop="@dimen/bottom_margin_top"
+                android:textColor="@color/text_color" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout_bottom_homework"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/tv_bottom_play"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:onClick="onViewClicked">
+
+            <ImageView
+                android:id="@+id/iv_bottom_homework"
+                android:layout_width="@dimen/bottom_iv_w_h"
+                android:layout_height="@dimen/bottom_iv_w_h"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/bottom_margin_top"
+                app:srcCompat="@mipmap/homework1" />
+
+            <TextView
+                android:id="@+id/tv_bottom_homework"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_bottom_homework"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/bottom_margin_top"
+                android:text="作业"
+                android:textColor="@color/text_color" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout_bottom_play"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onViewClicked">
+
+            <ImageView
+                android:id="@+id/iv_bottom_play"
+                android:layout_width="@dimen/bottom_iv_w_h"
+                android:layout_height="@dimen/bottom_iv_w_h"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/bottom_margin_top"
+                app:srcCompat="@mipmap/play1" />
+
+            <TextView
+                android:id="@+id/tv_bottom_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_bottom_play"
+                android:layout_centerHorizontal="true"
+                android:text="游戏"
+                android:layout_marginTop="@dimen/bottom_margin_top"
+                android:textColor="@color/text_color" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout_bottom_user"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onViewClicked">
+
+            <ImageView
+                android:id="@+id/iv_bottom_user"
+                android:layout_width="@dimen/bottom_iv_w_h"
+                android:layout_height="@dimen/bottom_iv_w_h"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/bottom_margin_top"
+                app:srcCompat="@mipmap/user1" />
+
+            <TextView
+                android:id="@+id/tv_bottom_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_bottom_user"
+                android:layout_centerHorizontal="true"
+                android:text="我的"
+                android:layout_marginTop="@dimen/bottom_margin_top"
+                android:textColor="@color/text_color" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

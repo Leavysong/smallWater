@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <RelativeLayout
+                android:id="@+id/rl_hanzi1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@mipmap/bg"
+                >
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="50dp"
+                    android:id="@+id/cardview"
+                    >
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/mathbg">
+
+                        <TextView
+                            android:id="@+id/tv_hanzi_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="20dp"
+                            android:textColor="@color/question"
+                            android:text="第1课"
+                            android:textSize="26sp" />
+
+                        <ImageView
+                            android:id="@+id/iv_hanzi_img"
+                            android:layout_width="300dp"
+                            android:layout_height="200dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_below="@+id/tv_hanzi_content"
+                            android:layout_centerHorizontal="true" />
+
+                        <TextView
+                            android:id="@+id/tv_hanzi_content"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tv_hanzi_title"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="20dp"
+                            android:textSize="18sp"
+                            android:text="学拼音"
+                            android:textColor="@color/question" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_hanzi2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/rl_hanzi1"
+                android:background="@mipmap/bg"
+                >
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="50dp"
+                    android:id="@+id/cardview1"
+                    >
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/mathbg">
+
+                        <TextView
+                            android:id="@+id/tv_hanzi_title1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="20dp"
+                            android:textColor="@color/question"
+                            android:text="第2课"
+                            android:textSize="26sp" />
+
+                        <ImageView
+                            android:id="@+id/iv_hanzi_img1"
+                            android:layout_width="300dp"
+                            android:layout_height="200dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_below="@+id/tv_hanzi_content1"
+                            android:layout_centerHorizontal="true" />
+
+                        <TextView
+                            android:id="@+id/tv_hanzi_content1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tv_hanzi_title1"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="20dp"
+                            android:textSize="18sp"
+                            android:text="学韵母"
+                            android:textColor="@color/question" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/rl_hanzi2"
+                android:id="@+id/rl_hanzi3"
+                android:background="@mipmap/bg"
+                >
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="50dp"
+                    android:id="@+id/cardview2"
+                    >
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/mathbg">
+
+                        <TextView
+                            android:id="@+id/tv_hanzi_title2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="20dp"
+                            android:textColor="@color/question"
+                            android:text="第3课"
+                            android:textSize="26sp" />
+
+                        <ImageView
+                            android:id="@+id/iv_hanzi_img2"
+                            android:layout_width="300dp"
+                            android:layout_height="200dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_below="@+id/tv_hanzi_content2"
+                            android:layout_centerHorizontal="true"/>
+
+                        <TextView
+                            android:id="@+id/tv_hanzi_content2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tv_hanzi_title2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="20dp"
+                            android:textSize="18sp"
+                            android:text="学声母"
+                            android:textColor="@color/question" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

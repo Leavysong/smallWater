@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/qipan"
+    tools:context="com.df.smallwater.smallwater.game.activity.ChessActivity">
+
+    <com.df.smallwater.smallwater.game.view.ChessView
+        android:id="@+id/custon_chess_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/bt_restart"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/foot_height"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:textSize="@dimen/base_textsize"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_login"
+        android:text="再来一局" />
+</RelativeLayout>

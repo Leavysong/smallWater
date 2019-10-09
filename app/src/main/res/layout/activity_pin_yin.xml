@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bj"
+    tools:context="com.df.smallwater.smallwater.PinYInActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout3">
+
+
+
+
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_shengmu"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:layout_above="@+id/btn_yunmu"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/big_margin"
+        android:background="@drawable/btn_reg"
+        android:textColor="@color/white"
+        android:layout_marginLeft="@dimen/edit_margin_width"
+        android:layout_marginRight="@dimen/edit_margin_width"
+        android:text="学声母" />
+
+    <Button
+        android:id="@+id/btn_yunmu"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:layout_centerVertical="true"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_login"
+        android:layout_marginLeft="@dimen/edit_margin_width"
+        android:layout_marginRight="@dimen/edit_margin_width"
+        android:text="学韵母" />
+
+</RelativeLayout>

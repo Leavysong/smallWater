@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <RelativeLayout
+                android:id="@+id/rl_hanzi1"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@color/white"
+                android:layout_marginBottom="2dp">
+
+
+                <TextView
+                    android:id="@+id/tv_hanzi_title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:text="第1课   认数字 0~4"
+                    android:textSize="@dimen/base_textsize" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_hanzi2"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/rl_hanzi1"
+                android:background="@color/white"
+                android:layout_marginBottom="2dp">
+
+
+                <TextView
+                    android:id="@+id/tv_hanzi_title2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:text="第2课   认数字 5~9"
+                    android:textSize="@dimen/base_textsize" />
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:id="@+id/rl_hanzi4"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/rl_hanzi3"
+                android:layout_marginBottom="2dp"
+                android:background="@color/white">
+
+
+                <TextView
+                    android:id="@+id/tv_hanzi_title4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:text="第4课   加法口诀"
+                    android:textSize="@dimen/base_textsize" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_hanzi5"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/rl_hanzi4"
+                android:layout_marginBottom="2dp"
+                android:background="@color/white">
+
+
+                <TextView
+                    android:id="@+id/tv_hanzi_title5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:text="第5课   10以内加法测试"
+                    android:textSize="@dimen/base_textsize" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_hanzi6"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/rl_hanzi5"
+                android:layout_marginBottom="2dp"
+                android:background="@color/white">
+
+
+                <TextView
+                    android:id="@+id/tv_hanzi_title6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:text="第6课   20以内加法测试"
+                    android:textSize="@dimen/base_textsize" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_hanzi7"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/rl_hanzi6"
+                android:layout_marginBottom="2dp"
+                android:background="@color/white">
+
+
+                <TextView
+                    android:id="@+id/tv_hanzi_title7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:text="第7课   减法口诀"
+                    android:textSize="@dimen/base_textsize" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_hanzi8"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/rl_hanzi7"
+                android:layout_marginBottom="2dp"
+                android:background="@color/white">
+
+
+                <TextView
+                    android:id="@+id/tv_hanzi_title8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:text="第8课   10以内减法测试"
+                    android:textSize="@dimen/base_textsize" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_hanzi9"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/rl_hanzi8"
+                android:layout_marginBottom="2dp"
+                android:background="@color/white">
+
+
+                <TextView
+                    android:id="@+id/tv_hanzi_title9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:text="第9课   20以内减法法测试"
+                    android:textSize="@dimen/base_textsize" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rl_hanzi10"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/rl_hanzi9"
+                android:background="@color/white">
+
+
+                <TextView
+                    android:id="@+id/tv_hanzi_title10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:text="第10课   10以内加减法混合测试"
+                    android:textSize="@dimen/base_textsize" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rl_hanzi11"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/rl_hanzi10"
+                android:background="@color/white">
+
+
+                <TextView
+                    android:id="@+id/tv_hanzi_title11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:text="第11课   20以内加减法混合测试"
+                    android:textSize="@dimen/base_textsize" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

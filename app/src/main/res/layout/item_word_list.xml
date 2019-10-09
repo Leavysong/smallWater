@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@mipmap/bg"
+    >
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="50dp"
+        android:id="@+id/cardview"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/mathbg">
+
+            <TextView
+                android:id="@+id/tv_word_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/question"
+                android:textSize="26sp" />
+
+            <ImageView
+                android:id="@+id/iv_word_img"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/tv_word_content"
+                android:scaleType="fitXY"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:id="@+id/tv_word_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_word_title"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"
+                android:textColor="@color/question" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.df.smallwater.smallwater.RegActivity">
+
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:background="@null"
+        android:hint="请输入手机号"
+        android:textSize="@dimen/login_text_size"
+        android:layout_marginLeft="@dimen/edit_margin_width"
+        android:layout_marginRight="@dimen/edit_margin_width"
+        android:layout_marginTop="120dp"
+        android:inputType="phone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_width"
+        android:layout_alignLeft="@+id/et_username"
+        android:layout_alignStart="@+id/et_username"
+        android:layout_alignRight="@+id/et_username"
+        android:layout_alignEnd="@+id/et_username"
+        android:layout_below="@+id/et_username"
+        android:background="@color/blue_strong"
+        android:layout_marginTop="@dimen/base_margin"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout2"></LinearLayout>
+
+
+
+    <EditText
+        android:id="@+id/et_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:background="@null"
+        android:hint="请输入验证码"
+        android:textSize="@dimen/login_text_size"
+        android:layout_marginTop="@dimen/login_text_size"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_marginLeft="@dimen/edit_margin_width"
+        android:layout_marginRight="@dimen/edit_margin_width"
+        android:inputType="text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_width"
+        android:layout_alignLeft="@+id/et_code"
+        android:layout_alignStart="@+id/et_code"
+        android:layout_alignRight="@+id/et_code"
+        android:layout_alignEnd="@+id/et_code"
+        android:layout_below="@+id/et_code"
+        android:background="@color/blue_strong"
+        android:layout_marginTop="@dimen/base_margin"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout3"></LinearLayout>
+
+    <com.df.smallwater.smallwater.view.CountDownTextView
+        android:id="@+id/tv_code_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/big_margin"
+        android:textSize="@dimen/base_textsize"
+        android:padding="@dimen/base_margin"
+        android:background="@drawable/text_line_background"
+        android:text="获取验证码" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/btn_height"
+        android:layout_alignLeft="@+id/et_code"
+        android:layout_alignStart="@+id/et_code"
+        android:layout_alignRight="@+id/et_code"
+        android:layout_alignEnd="@+id/et_code"
+        android:layout_below="@+id/tv_code_time"
+        android:background="@drawable/btn_login"
+        android:textSize="@dimen/login_text_size"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/large_margin"
+        android:text="提交" />
+
+    <include
+        layout="@layout/base_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

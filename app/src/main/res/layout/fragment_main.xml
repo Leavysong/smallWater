@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context="com.df.smallwater.smallwater.fragment.MainFragment">
+
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <RelativeLayout
+                android:id="@+id/relativeLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="小水滴幼儿园"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/tv_top"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:id="@+id/tv_qingjia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/tv_top"
+                    android:layout_marginRight="10dp"
+                    android:text="请假" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relativeLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/relativeLayout2">
+
+                <com.youth.banner.Banner
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:image_scale_type="fit_xy">
+
+
+                </com.youth.banner.Banner>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rl_gonggao"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@color/white"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@+id/relativeLayout3">
+
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="@dimen/mine_item_icon"
+                    android:layout_height="@dimen/mine_item_icon"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/mine_item_margin_left"
+                    android:src="@mipmap/gonggao" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/imageView15"
+                    android:layout_toRightOf="@+id/imageView15"
+                    android:layout_marginLeft="@dimen/main_item_margin_left"
+                    android:textColor="@color/base_text_color"
+                    android:textSize="@dimen/base_textsize"
+                    android:text="公告" />
+
+                <TextView
+                    android:id="@+id/tv_gonggao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/textView10"
+                    android:layout_toRightOf="@+id/textView10"
+                    android:textColor="@color/base_text_color"
+                    android:singleLine="true"
+                    android:textSize="@dimen/base_textsize"
+                    tools:text="暂无公告" />
+
+            </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:background="@mipmap/learnbg">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/btn_hanzi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/btn_math"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="12dp"
+                        android:background="@null"
+                        android:text="识汉字水、火、土"
+                        android:textColor="@color/white" />
+
+                    <Button
+                        android:id="@+id/btn_math"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/btn_english"
+                        android:layout_alignLeft="@+id/btn_english"
+                        android:layout_alignStart="@+id/btn_english"
+                        android:layout_marginBottom="11dp"
+                        android:background="@null"
+                        android:text="做数学1 + 1 = ？"
+                        android:textColor="@color/white" />
+
+                    <Button
+                        android:id="@+id/btn_english"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="36dp"
+                        android:background="@null"
+                        android:text="学英语English"
+                        android:textColor="@color/white" />
+
+
+
+                </RelativeLayout>
+</LinearLayout>
+            <RelativeLayout
+                android:id="@+id/rl_xinwen"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@color/white"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/relativeLayout3">
+
+
+                <ImageView
+                    android:id="@+id/imageView20"
+
+                    android:layout_width="@dimen/mine_item_icon"
+                    android:layout_height="@dimen/mine_item_icon"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/mine_item_margin_left"
+                    android:src="@mipmap/xinwen" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/imageView20"
+                    android:layout_toRightOf="@+id/imageView20"
+                    android:layout_marginLeft="@dimen/main_item_margin_left"
+                    android:textColor="@color/base_text_color"
+                    android:textSize="@dimen/base_textsize"
+                    android:text="院内头条" />
+
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView_toutiao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"/>
+</RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+<!--自定义的颜色-->
+    <color name="white">#FFFFFF</color>
+
+    <color name="text_color">#333333</color>
+    <color name="base_text_color">#000000</color>
+    <color name="blue">#99D4F1</color>
+    <color name="blue_logo">#00c7fd</color>
+    <color name="blue_strong">#4F84E7</color>
+    <color name="green">#CCDC31</color>
+    <color name="green_strong">#80C656</color>
+    <color name="green_point">#00d574</color>
+    <color name="gray">#eeeeee</color>
+    <color name="gray_strong">#dddddd</color>
+
+    <color name="red1">#d81e06</color>
+    <color name="anwser">#edfb00</color>
+    <color name="question">#01a0ea</color>
+
+
+    <color name="text_white">#fff6f2</color>
+    <color name="text_black">#996e65</color>
+    <color name="text_brown">#d8cdc4</color>
+    <color name="background">#eef8ef</color>
+
+    <color name="text_nomal_color">#000000</color>
+    <color name="transparent">#0000</color>
+    <color name="half_transparent">#7dffffff</color>
+    <color name="half_transparent_black">#7d000000</color>
+
+</resources>
