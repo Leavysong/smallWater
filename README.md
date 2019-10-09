@@ -6,18 +6,18 @@
 
 >网络请求
 retrofit<Br>
-       okhttp3\<Br>
-      rxjava \<Br>
+       okhttp<Br>
+      rxjava<Br>
     
 >图片处理
-  glide\<Br>
-   圆角图片circleimageview\<Br>
-   轮播banner\<Br>
+  glide<Br>
+   圆角图片circleimageview<Br>
+   轮播banner<Br>
     
->recycleview适配器\<Br>
-    recycleview适配器BaseRecyclerViewAdapterHelper\<Br>
+>recycleview适配器<Br>
+    recycleview适配器BaseRecyclerViewAdapterHelper<Br>
     
 >第三方SDK
-    百度语音\<Br>
-    有道\<Br>
+    百度语音<Br>
+    有道<Br>
     
