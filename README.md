@@ -21,3 +21,4 @@
     百度语音
     有道
     
+[博客](http://blog.csdn.net/guodongxiaren)
