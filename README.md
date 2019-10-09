@@ -4,20 +4,20 @@
 
 ### 第三方依赖：
 
->1.网络请求
-retrofit
-       okhttp3
-      rxjava 
+>网络请求
+retrofit\<Br>
+       okhttp3\<Br>
+      rxjava \<Br>
     
->2.图片处理
-  glide
-   圆角图片circleimageview
-   轮播banner
+>图片处理
+  glide\<Br>
+   圆角图片circleimageview\<Br>
+   轮播banner\<Br>
     
->3.recycleview适配器
-    recycleview适配器BaseRecyclerViewAdapterHelper
+>recycleview适配器\<Br>
+    recycleview适配器BaseRecyclerViewAdapterHelper\<Br>
     
->4.第三方SDK
-    百度语音
-    有道
+>第三方SDK
+    百度语音\<Br>
+    有道\<Br>
     
