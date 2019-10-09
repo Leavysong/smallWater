@@ -1,13 +1,13 @@
 # smallWater
 
-#小雨滴教育
+小雨滴教育
 
 第三方依赖：
 
 1.网络请求
-    retrofit
-    okhttp3
-    rxjava 
+        retrofit
+        okhttp3
+        rxjava 
     
 2.图片处理
     glide
