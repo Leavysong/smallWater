@@ -9,7 +9,7 @@
        okhttp<Br>
       rxjava<Br>
     
-*图片处理<Br>
+* 图片处理<Br>
  > glide<Br>
    圆角图片circleimageview<Br>
    轮播banner<Br>
