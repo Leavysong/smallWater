@@ -4,17 +4,17 @@
 
 ### 第三方依赖：
 
-网络请求<Br>
+`网络请求`<Br>
 >retrofit<Br>
        okhttp<Br>
       rxjava<Br>
     
-图片处理<Br>
+*图片处理<Br>
  > glide<Br>
    圆角图片circleimageview<Br>
    轮播banner<Br>
     
-recycleview适配器<Br>
+### recycleview适配器<Br>
   >  recycleview适配器BaseRecyclerViewAdapterHelper<Br>
     
 第三方SDK<Br>
